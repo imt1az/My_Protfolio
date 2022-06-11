@@ -4,7 +4,7 @@ import { brands } from '../data';
 const Brand = () => {
     return (
         <section className='min-h-[146px] bg-tertiary flex items-center'>
-          <div className='container mx-auto flex md:justify-between items-center flex-wrap justify-evenly'>
+          {/* <div className='container mx-auto flex md:justify-between items-center flex-wrap justify-evenly'>
                 {
                     brands.map((brand,index)=>{
                         return (
@@ -14,7 +14,7 @@ const Brand = () => {
                         )
                     })
                 }
-          </div>
+          </div> */}
         </section>
     );
 };

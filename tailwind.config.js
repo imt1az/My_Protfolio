@@ -1,10 +1,12 @@
 module.exports = {
   content: ['./src/**/*.{js,jsx,ts,tsx}'],
+ 
   theme: {
     fontFamily: {
       primary: 'Playfair Display',
       body: 'Work Sans',
     },
+    plugins: [require("daisyui")],
     container: {
       padding: {
         DEFAULT: '1rem',
@@ -37,5 +39,5 @@ module.exports = {
       },
     },
   },
-  plugins: [],
+  plugins: [require("daisyui")],
 };

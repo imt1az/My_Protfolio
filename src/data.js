@@ -10,6 +10,7 @@ import {
   FiTag,
   FiMail,
   FiMapPin,
+  FiLinkedin,
 } from 'react-icons/fi';
 
 // companies icons
@@ -26,6 +27,11 @@ import Project3 from './assets/img/projects/p3.webp';
 import Project4 from './assets/img/projects/p4.webp';
 import Project5 from './assets/img/projects/p5.webp';
 import Project6 from './assets/img/projects/p6.webp';
+
+import One from './assets/img/projects/One.png'
+import Two from './assets/img/projects/Two.png'
+import Three from './assets/img/projects/Three.png'
+import Four from './assets/img/projects/Four.png'
 
 // skills images
 import SkillImg1 from './assets/img/skills/html5.png';
@@ -60,10 +66,14 @@ export const navigation = [
     name: 'Services',
     href: 'services',
   },
-  {
-    name: 'Testimonials',
-    href: 'testimonials',
-  },
+  // {
+  //   name: 'Testimonials',
+  //   href: 'testimonials',
+  // },
+  // {
+  //   name:'Resume',
+  //   href:'https://drive.google.com/file/d/1Q2BE7Tp58Rz3Uuu2jUEQUAIsO6BsbS4c/view?usp=sharing'
+  // },
   {
     name: 'Contact',
     href: 'contact',
@@ -73,7 +83,7 @@ export const navigation = [
 // social
 export const social = [
   {
-    icon: <FiYoutube />,
+    icon: <FiLinkedin />,
     href: '',
   },
   {
@@ -82,10 +92,6 @@ export const social = [
   },
   {
     icon: <FiGithub />,
-    href: '',
-  },
-  {
-    icon: <FiDribbble />,
     href: '',
   },
 ];
@@ -118,40 +124,52 @@ export const brands = [
 export const projectsData = [
   {
     id: '1',
-    image: Project1,
-    name: 'project name 1',
-    category: 'UI/UX design',
+    image: One,
+    name: 'Tools Manufacture Management System',
+    category: 'web development',
+    Frontend :[
+      'React',
+      'Tailwind',
+      'Daisy Ui'
+    ],
+    Backend:[
+      'Node js',
+      'Mongo DB'
+    ],
+    description:'This is a web base project where an user can order tools minimum and maximum quantity with the limitations.Order cancel, Update profile, Stripe Payement system.Admin can manage users, add products, manage orders, order shipment.JWT web token system, Firebase Authentication, Social Login.',
+    Live : 'https://manufacture-84b6d.web.app/',
+    Github:'https://github.com/imt1az/tools-maker-with-react-node-mongo'
   },
   {
     id: '2',
-    image: Project2,
-    name: 'project name 2',
+    image: Two,
+    name: 'WarHouse Management System',
     category: 'web development',
+    Frontend :[
+      'React',
+      'Tailwind',
+    ],
+    Backend:[
+      'Node js',
+      'Mongo DB'
+    ],
+    description:'In this project I build simple product storage system where owner can deliver and stock products.Manage Product, Add Items.Firebase Authentication, Social Login',
+    Live : 'https://warhouse-mongo-node.web.app/home',
+    Github:'https://github.com/ProgrammingHeroWC4/warehouse-management-client-side-imt1az'
   },
   {
     id: '3',
-    image: Project3,
-    name: 'project name 3',
-    category: 'UI/UX design',
+    image: Three,
+    name: 'Simple Cart System',
+    category: 'web development',
   },
   {
     id: '4',
-    image: Project4,
-    name: 'project name 4',
-    category: 'branding',
-  },
-  {
-    id: '5',
-    image: Project5,
-    name: 'project name 5',
+    image: Four,
+    name: 'Product Review System',
     category: 'web development',
   },
-  {
-    id: '6',
-    image: Project6,
-    name: 'project name 6',
-    category: 'web development',
-  },
+
 ];
 
 // projects
@@ -165,9 +183,7 @@ export const projectsNav = [
   {
     name: 'web development',
   },
-  {
-    name: 'branding',
-  },
+ 
 ];
 
 // skill
@@ -214,13 +230,13 @@ export const services = [
   },
   {
     icon: <FiPenTool />,
-    name: 'Branding',
+    name: 'Figma',
     description:
       'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio perferendis volm quibusdam ullam qui dolore.',
   },
   {
     icon: <FiTag />,
-    name: 'SEO',
+    name: 'Branding',
     description:
       'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio perferendis volm quibusdam ullam qui dolore.',
   },

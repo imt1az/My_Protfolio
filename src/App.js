@@ -5,6 +5,7 @@ import Contact from './Components/Contact';
 import Footer from './Components/Footer';
 import Header from './Components/Header';
 import Hero from './Components/Hero';
+import Mine from './Components/Mine';
 import Portfolio from './Components/Portfolio';
 import Services from './Components/Services';
 
@@ -16,13 +17,14 @@ import Testimonial from './Components/Testimonial';
 const App = () => {
   return <div className='bg-white relative'>
     <Header></Header>
+    
     <Hero></Hero>
-    <Brand></Brand>
+    {/* <Brand></Brand> */}
     <About></About>
     <Skills></Skills>
     <Portfolio></Portfolio>
     <Services></Services>
-    <Testimonial></Testimonial>
+    {/* <Testimonial></Testimonial> */}
     <Contact></Contact>
     <Footer></Footer>
    

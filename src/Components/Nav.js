@@ -5,16 +5,17 @@ import { navigation } from "../data";
 const Nav = () => {
   return (
     <nav>
-      <ul className="flex space-x-8 text-[15px]">
+      <ul className="flex  space-x-8 text-[15px]">
         {navigation.map((item, index) => {
           return (
             <li
-              className="text-white hover:text-accent cursor-pointer"
+              className="text-white text-xl hover:text-accent cursor-pointer"
               key={index}
             >
               <Link
+            
                 to={item.href}
-                activeClass="active"
+                activeclassName="active"
                 spy={true}
                 smooth={true}
                 duration={500}
@@ -25,6 +26,7 @@ const Nav = () => {
             </li>
           );
         })}
+         <li className="text-white text-xl hover:text-accent cursor-pointer"><a target='_blank' href="https://drive.google.com/file/d/1Q2BE7Tp58Rz3Uuu2jUEQUAIsO6BsbS4c/view?usp=sharing">Resume</a></li>
       </ul>
     </nav>
   );

@@ -13,10 +13,8 @@ const Services = () => {
             What I do for my clients
           </h2>
           <p className="subtitle">
-            You can also use variant modifiers to target media queries like
-            responsive breakpoints, dark mode, prefers-reduced-motion, and more.
-            For example, use md:before:content-['Desktop'] to apply the
-            before:content
+            I always wanted to see my clients happy with my work. I give my best output for 
+            my clients who are trusted me and give me their valuable time and task.And i always fulfill my duties.
           </p>
           
         </div>
@@ -24,13 +22,13 @@ const Services = () => {
             {services.map((service, index) => {
               const { icon, name, description } = service;
               return <div className="bg-secondary p-6 rounded-2xl" key={index}>
-                <div className="text-accent w-12 h-12 flex justify-center items-center mb-24 text-[28px]">
+                <div className="text-accent  flex justify-center mb-2 items-center text-[28px]">
                   {icon}
                 </div>
-                <h4 className="text-xl font-medium mb-2">
+                <h4 className="text-xl text-center font-medium mb-2">
                        {name}
                   </h4>
-                  <p>{description}</p>
+                  
               </div>;
             })}
           </div>

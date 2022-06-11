@@ -1,13 +1,14 @@
 import React from "react";
 import Image from "../assets/img/about.webp";
+import Professional from '../assets/img/Professional.jpg'
 const About = () => {
   return (
     <section id="about" className="section bg-secondary">
       <div className="container mx-auto">
         <div className="flex flex-col xl:flex-row gap-24">
           <img
-            className="object-cover h-full w-[566px] md:mx-auto lg:mx-0 rounded-2xl"
-            src={Image}
+            className="object-cover h-full w-[466px] md:mx-auto lg:mx-0 rounded-2xl"
+            src={Professional}
             alt=""
           ></img>
 
@@ -20,18 +21,18 @@ const About = () => {
                           >
                 Imtiaz
               </h2>
-              <p className="mb-4 text-accent">Freelance Web Developer</p>
+              <p className="mb-4 text-accent">Web Developer</p>
               <hr className="mb-8 opacity-5"></hr>
-              <p className="mb-8">
-                You can also use variant modifiers to target media queries like
-                responsive breakpoints, dark mode, prefers-reduced-motion, and
-                more. For example, use md:before:content-['Desktop'] to apply
-                the before:content-['Desktop'] utility at only medium screen
-                sizes and above.
+              <p className="mb-8 lg:text-justify text-justify ">
+               Hello,my name is Imtiaz Ahmed Chowdhury. I have been performing as Full-Stack web developer and am still in the process of gainning experience.
+               My educational background possesses a Bachelor Of Science In Computer Science and Engineering.I am also dedicated to my work that my own created
+               websites ended with gainning lots of response and fame. I give my best to any work regarding this field. I have experience like Javascript,Node Js,
+                MongoDb, React, Php, Laravel, MySql,Html,Css,
+              Bootstrap and i can solve problem analytically.
               </p>
             </div>
             <button className="btn btn-md bg-accent hover:bg-accent-hover transition-all">
-               Contact Me
+            <a href="#contact">Contact me</a>
             </button>
           </div>
         </div>
