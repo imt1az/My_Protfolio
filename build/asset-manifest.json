@@ -1,9 +1,14 @@
 {
   "files": {
-    "main.css": "/static/css/main.9e8544af.css",
-    "main.js": "/static/js/main.e69b5210.js",
+    "main.css": "/static/css/main.8d68f852.css",
+    "main.js": "/static/js/main.cf7cee7c.js",
+    "static/media/Two.png": "/static/media/Two.83fea710ef9f5e16edac.png",
+    "static/media/One.png": "/static/media/One.30a9dff3c07f867d5a69.png",
+    "static/media/Four.png": "/static/media/Four.f4b5fd77bad7aee9c3e1.png",
     "static/media/MyImage.JPG": "/static/media/MyImage.b2c3430e20a75c5fc058.JPG",
+    "static/media/Three.png": "/static/media/Three.e6d5223b6d9aec842e58.png",
     "static/media/about.webp": "/static/media/about.2c2bda9a46420b56d2b5.webp",
+    "static/media/Professional.jpg": "/static/media/Professional.63b069cd3910a29e4047.jpg",
     "static/media/banner-woman2.webp": "/static/media/banner-woman2.484a3b40fee634e4b12f.webp",
     "static/media/testimonial-2.webp": "/static/media/testimonial-2.4c1e7c2fe42e548d2e0f.webp",
     "static/media/p1.webp": "/static/media/p1.52f0f3a89c11044c2037.webp",
@@ -21,11 +26,11 @@
     "static/media/p2.webp": "/static/media/p2.987c883e6e66df8a1228.webp",
     "static/media/about.svg": "/static/media/about.70a8290c961c47c208b5.svg",
     "index.html": "/index.html",
-    "main.9e8544af.css.map": "/static/css/main.9e8544af.css.map",
-    "main.e69b5210.js.map": "/static/js/main.e69b5210.js.map"
+    "main.8d68f852.css.map": "/static/css/main.8d68f852.css.map",
+    "main.cf7cee7c.js.map": "/static/js/main.cf7cee7c.js.map"
   },
   "entrypoints": [
-    "static/css/main.9e8544af.css",
-    "static/js/main.e69b5210.js"
+    "static/css/main.8d68f852.css",
+    "static/js/main.cf7cee7c.js"
   ]
 }

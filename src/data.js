@@ -84,15 +84,15 @@ export const navigation = [
 export const social = [
   {
     icon: <FiLinkedin />,
-    href: '',
+    href: 'https://www.linkedin.com/in/imtiaz-ahmed-chowdhury-b40179225/',
   },
   {
     icon: <FiInstagram />,
-    href: '',
+    href: 'https://www.instagram.com/imtiaz_ahmed_chowdhury_/',
   },
   {
     icon: <FiGithub />,
-    href: '',
+    href: 'https://github.com/imt1az',
   },
 ];
 

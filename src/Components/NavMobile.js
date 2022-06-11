@@ -76,6 +76,7 @@ const NavMobile = () => {
                 </li>
             })
         }
+        <li className='mb-8'><a target='_blank' href="https://drive.google.com/file/d/1Q2BE7Tp58Rz3Uuu2jUEQUAIsO6BsbS4c/view?usp=sharing">Resume</a></li>
       </motion.ul>
     </nav>
   );
