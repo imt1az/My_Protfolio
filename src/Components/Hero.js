@@ -12,7 +12,7 @@ const Hero = () => {
         <div className="flex items-center h-full pt-8">
           {/* Left */}
           <div className="flex-1 flex flex-col items-center lg:items-start">
-            <p className="text-lg text-accent mb-[22px]">
+            <p className="text-xl text-yellow-200 mb-[22px]">
               Hey, i'm Imtiaz Ahmed Chowdhury{" "}
             </p>
             <h1 className="text-4xl md:text-5xl md:leading-tight lg:text-7xl lg:leading-[1.2] font-bold md:tracking-[-2px] leading-[44px] mb-3">
@@ -22,8 +22,8 @@ const Hero = () => {
             
             <button
              
-              className="btn btn-md bg-accent hover:bg-accent-hover
-                        md:btn-lg transition-all"
+              className="btn btn-md bg-gray-400 hover:bg-yellow-100-hover
+                        md:btn-lg transition-all shadow-lg"
             >
               <a href="#contact" className="text-white"> Work with me</a>
             </button>

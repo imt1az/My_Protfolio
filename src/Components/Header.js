@@ -16,12 +16,13 @@ const Header = () => {
                <a href='#'>
                    <img className='w-30 h-12 rounded' src={Logo} alt='' ></img>
                </a>
-               <div className='hidden lg:block'>
-                   <Nav></Nav>
-               </div>
+              
                {/* Social */}
                <div className='hidden lg:block'>
                    <Social></Social>
+               </div>
+               <div className='hidden lg:block'>
+                   <Nav></Nav>
                </div>
 
                {/* Nav Mobile */}

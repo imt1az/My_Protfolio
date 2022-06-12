@@ -9,10 +9,6 @@ const Portfolio = () => {
                  <h2 className='section-title before:content-portfolio relative before:absolute before:opacity-100
                  before:-top-[2rem] before:-left-3/4 before:hidden before:lg:block'>My Latest Work
                  </h2>
-                 <p className='subtitle'>You can also use variant modifiers to target media queries like
-                responsive breakpoints, dark mode, prefers-reduced-motion, and
-                more. For example, use md:before:content-['Desktop'] to apply
-                the before:content</p>
               </div>
              <Projects></Projects>
            </div>

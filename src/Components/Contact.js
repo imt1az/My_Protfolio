@@ -16,13 +16,13 @@ const Contact = () => {
               const { icon, title, subtitle, description } = item;
               return (
                 <div className="flex flex-col lg:flex-row gap-x-4" key={index}>
-                  <div className="text-accent rounded-sm w-14 h-14 flex items-start justify-center mt-2 mb-4 lg:mb-0 text-2xl">
+                  <div className="text-white rounded-sm w-14 h-14 flex items-start justify-center mt-2 mb-4 lg:mb-0 text-2xl">
                     {icon}
                   </div>
                   <div>
                     <h4 className="font-body text-xl mb-1">{title}</h4>
                     <p className="mb-1 text-paragraph">{subtitle}</p>
-                    <p className="text-accent font-normal ">{description}</p>
+                    <p className="text-white font-bold">{description}</p>
                   </div>
                 </div>
               );
@@ -38,7 +38,7 @@ const Contact = () => {
               className="textarea"
               placeholder="Your message"
             ></textarea>
-            <button className="btn btn-lg bg-accent hover:bg-secondary-hover">
+            <button className="btn btn-lg bg-gray-400 hover:bg-yellow-100-hover text-white">
               Send message
             </button>
           </form>

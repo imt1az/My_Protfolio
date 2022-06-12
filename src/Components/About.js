@@ -31,7 +31,7 @@ const About = () => {
               Bootstrap and i can solve problem analytically.
               </p>
             </div>
-            <button className="btn btn-md bg-accent hover:bg-accent-hover transition-all">
+            <button className="btn btn-md bg-gray-400 hover:bg-yellow-100-hover transition-all text-white">
             <a href="#contact">Contact me</a>
             </button>
           </div>
