@@ -22,7 +22,7 @@ const ProjectModal = ({ projectDes, setProjectDes }) => {
               </div>
               <div>
                 <h2 className="font-bold text-accent font-body mb-3 text-xl">Backend</h2>
-                {Backend.map((item, index) => {
+                {Backend?.map((item, index) => {
                   return <p className="text-blue-700" key={index}>{item}</p>;
                 })}
               </div>

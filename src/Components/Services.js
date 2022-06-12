@@ -22,7 +22,7 @@ const Services = () => {
             {services.map((service, index) => {
               const { icon, name, description } = service;
               return <div className="bg-secondary p-6 rounded-2xl" key={index}>
-                <div className="text-accent  flex justify-center mb-2 items-center text-[28px]">
+                <div className="text-yellow-100  flex justify-center mb-2 items-center text-[28px]">
                   {icon}
                 </div>
                 <h4 className="text-xl text-center font-medium mb-2">

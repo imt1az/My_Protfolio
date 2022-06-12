@@ -15,13 +15,13 @@ const About = () => {
           <div className="flex flex-col items-center text-center lg:items-start lg:text-left">
             <div className="flex flex-col">
               <h2
-                className="text-3xl lg:text-4xl font-medium lg:font-extrabold mb-3
+                className="text-2xl lg:text-4xl font-medium lg:font-extrabold mb-3
                                before:content-about  relative before:absolute before:opacity-40 before:-top-[2rem] before:hidden before:lg:block
                                "
                           >
-                Imtiaz
+                Imtiaz Ahmed Chowdhury
               </h2>
-              <p className="mb-4 text-accent">Web Developer</p>
+              <p className="mb-4 text-white">Web Developer</p>
               <hr className="mb-8 opacity-5"></hr>
               <p className="mb-8 lg:text-justify text-justify ">
                Hello,my name is Imtiaz Ahmed Chowdhury. I have been performing as Full-Stack web developer and am still in the process of gainning experience.

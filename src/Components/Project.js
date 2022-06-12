@@ -7,7 +7,7 @@ const Project = ({item,projectDes,setProjectDes}) => {
              <div className='mb-2'>
                  <img className='rounded-2xl h-[480px] lg:w-[300px]' src={item.image} alt=''></img>
              </div>
-             <p className='capitalize text-accent text-sm mb-2'>{item.category}</p>
+             <p className='capitalize text-white font-semibold text-sm mb-2'>{item.category}</p>
              <h3 className='text-xl font-medium capitalize mb-2'>{item.name}</h3>
              {/* <label for="product-detail" className="btn modal-button btn-xs lg:w-1/2 rounded-full bg-accent hover:bg-accent-hover transition-all ">
                Details
