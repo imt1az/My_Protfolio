@@ -26,7 +26,7 @@ const Nav = () => {
             </li>
           );
         })}
-         <li className="text-white text-xl hover:text-accent cursor-pointer"><a target='_blank' href="https://drive.google.com/file/d/1Q2BE7Tp58Rz3Uuu2jUEQUAIsO6BsbS4c/view?usp=sharing">Resume</a></li>
+         <li className="text-white text-xl hover:text-accent cursor-pointer"><a target='_blank' href="https://drive.google.com/drive/u/2/folders/11W6QFFLViDAibfOs9klEjP-oPjOpG2bC">Resume</a></li>
       </ul>
     </nav>
   );
